@@ -8,7 +8,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/screenshot.png)
+![](./assets/desktop-preview.jpg)
 
 ### Links
 
