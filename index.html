@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="container__img">
+        <img src="./assets/icon-star.svg" class="star" />
+      </div>
+      <h2 class="container__title">How did we do?</h2>
+      <p class="container__paragraph">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <form class="card__form">
+        <div class="card__rating-container">
+          <label for="rating-1">
+            <input
+              class="card__rating"
+              type="button"
+              name="rating"
+              value="1"
+              id="rating-1"
+            />
+          </label>
+          <label for="rating-2">
+            <input
+              class="card__rating"
+              type="button"
+              name="rating"
+              value="2"
+              id="rating-2"
+            />
+          </label>
+          <label for="rating-3">
+            <input
+              class="card__rating"
+              type="button"
+              name="rating"
+              value="3"
+              id="rating-3"
+            />
+          </label>
+          <label for="rating-4">
+            <input
+              class="card__rating"
+              type="button"
+              name="rating"
+              value="4"
+              id="rating-4"
+            />
+          </label>
+          <label for="rating-5">
+            <input
+              class="card__rating"
+              type="button"
+              name="rating"
+              value="5"
+              id="rating-5"
+            />
+          </label>
+        </div>
+        <button class="btn-submit" type="submit">Submit</button>
+      </form>
+    </main>
+
+    <div class="animate-aos" data-aos="zoom-in-up">
+      <div class="message-card">
+        <img src="assets/illustration-thank-you.svg" alt="" />
+      <p class="message__rating">You selected 4 of 5</p>
+      <h2>Thank You!</h2>
+      <p class="message__text">
+        We appreaciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+    </div>
+  </div>
+    
+    <script src="/js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
