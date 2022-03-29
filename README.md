@@ -22,12 +22,12 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- Javascript Vanilla
-- LocalStorage
+- Javascript
+- AOS animation library
 
 ### What I learned
 
-In this project I put into practice my knowledge in vanilla JS and learned how localStorage works.
+In this project I put into practice my knowledge in Javascript Forms, and AOS library.
 
 ## Author
 
